@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">28 Петель</string>
+
+    <!-- First start Fragment -->
+    <string name="start_text">Я в клубе "28 петель": *</string>
+    <string name="start_volunteer">Волонтер </string>
+    <string name="start_curator">Куратор </string>
+    <string name="start_doctor">Врач </string>
+    <string name="start_button">Продолжить </string>
+    <string name="start_comment">* Пожалуйста, выберете свою роль для правильной настройки приложения. </string>
+
+    <!--KnitPatternsFragment -->
+    <string name="pattern_name_ajuo">Ажурный узор</string>
+    <string name="pattern_name_easy">Простой узор</string>
+    <string name="pattern_name_rhombus">Ромбы</string>
+
+</resources>

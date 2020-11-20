@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity -->
+    <dimen name="burger_button_width">48dp</dimen>
+    <dimen name="burger_button_height">48dp</dimen>
+    <dimen name="burger_margin_start">16dp</dimen>
+    <dimen name="burger_margin_top">16dp</dimen>
+    <dimen name="fragment_margin_top">16dp</dimen>
+
+    <!-- First start Fragment -->
+    <dimen name="first_fragment_margins">8dp</dimen>
+    <dimen name="first_fragment_textSize">32sp</dimen>
+    <dimen name="first_fragment_radio_margins">8dp</dimen>
+    <dimen name="first_fragment_radio_textSize">24sp</dimen>
+    <dimen name="first_fragment_comment_textSize">12sp</dimen>
+    <dimen name="first_fragment_comment_padding">16dp</dimen>
+
+    <!-- KnitPatternsFragment -->
+    <dimen name="pattern_image_width">80dp</dimen>
+    <dimen name="pattern_image_margin_end">16dp</dimen>
+    <dimen name="pattern_image_height">80dp</dimen>
+    <dimen name="pattern_name_textsize">24sp</dimen>
+</resources>

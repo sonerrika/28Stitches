@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/pattern_scheme"
+        android:layout_width="@dimen/pattern_image_width"
+        android:layout_height="@dimen/pattern_image_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/pattern_image_margin_end"/>
+
+    <ImageView
+        android:id="@+id/pattern_photo"
+        android:layout_width="@dimen/pattern_image_width"
+        android:layout_height="@dimen/pattern_image_height"
+        app:layout_constraintStart_toEndOf="@+id/pattern_scheme"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/pattern_image_margin_end"/>
+
+    <TextView
+        android:id="@+id/pattern_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/pattern_name_textsize"
+        app:layout_constraintStart_toEndOf="@+id/pattern_photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

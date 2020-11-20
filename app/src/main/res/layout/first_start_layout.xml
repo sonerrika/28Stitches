@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/first_fragment_margins"
+        android:layout_marginLeft="@dimen/first_fragment_margins"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="@dimen/first_fragment_margins"
+        android:layout_marginRight="@dimen/first_fragment_margins"
+        android:text="@string/start_text"
+        android:textSize="@dimen/first_fragment_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/user_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/first_fragment_margins"
+        android:layout_marginLeft="@dimen/first_fragment_margins"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="@dimen/first_fragment_margins"
+        android:layout_marginRight="@dimen/first_fragment_margins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/volunteer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_volunteer"
+            android:textSize="@dimen/first_fragment_radio_textSize" />
+
+        <RadioButton
+            android:id="@+id/curator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_curator"
+            android:textSize="@dimen/first_fragment_radio_textSize"
+            android:layout_marginTop="@dimen/first_fragment_radio_margins"
+            android:layout_marginBottom="@dimen/first_fragment_radio_margins"/>
+
+        <RadioButton
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_doctor"
+            android:textSize="@dimen/first_fragment_radio_textSize" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/first_fragment_margins"
+        android:layout_marginLeft="@dimen/first_fragment_margins"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/first_fragment_margins"
+        android:layout_marginRight="@dimen/first_fragment_margins"
+        android:text="@string/start_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_role" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/first_fragment_margins"
+        android:layout_marginLeft="@dimen/first_fragment_margins"
+        android:layout_marginEnd="@dimen/first_fragment_margins"
+        android:layout_marginRight="@dimen/first_fragment_margins"
+        android:layout_marginBottom="@dimen/first_fragment_margins"
+        android:text="@string/start_comment"
+        android:textSize="@dimen/first_fragment_comment_textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingLeft="@dimen/first_fragment_comment_padding"
+        android:paddingRight="@dimen/first_fragment_comment_padding"/>
+</android.support.constraint.ConstraintLayout>
