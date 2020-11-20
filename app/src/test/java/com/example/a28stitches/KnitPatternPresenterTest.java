@@ -3,7 +3,7 @@ package com.example.a28stitches;
 import android.content.Context;
 
 import com.example.a28stitches.presenters.KnitPatternsPresenter;
-import com.example.a28stitches.ui.KnitPatterns;
+import com.example.a28stitches.data.KnitPatterns;
 
 import org.junit.Before;
 import org.junit.Rule;

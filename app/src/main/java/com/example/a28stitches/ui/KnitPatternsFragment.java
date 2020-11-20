@@ -11,7 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.a28stitches.R;
+import com.example.a28stitches.presenters.KnitPatternInterface;
 import com.example.a28stitches.presenters.KnitPatternsPresenter;
+import com.example.a28stitches.data.KnitPatternsAdapter;
 
 public class KnitPatternsFragment extends Fragment implements KnitPatternInterface {
 

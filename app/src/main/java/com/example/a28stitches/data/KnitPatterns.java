@@ -1,4 +1,4 @@
-package com.example.a28stitches.ui;
+package com.example.a28stitches.data;
 
 import android.graphics.drawable.Drawable;
 

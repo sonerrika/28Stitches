@@ -3,8 +3,7 @@ package com.example.a28stitches.presenters;
 import android.content.Context;
 
 import com.example.a28stitches.R;
-import com.example.a28stitches.ui.KnitPatternInterface;
-import com.example.a28stitches.ui.KnitPatterns;
+import com.example.a28stitches.data.KnitPatterns;
 
 import java.util.ArrayList;
 
